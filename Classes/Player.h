@@ -9,7 +9,6 @@ class Player
 public:
 	Player() = default;
 	Player(int lives, Vector2D position);
-	~Player();
 	void UpdateDirection(Vector2D direction);
 	void UpdatePosition(float deltaTime);
 	int GetPosX();

@@ -13,8 +13,8 @@ Player::Player(int lifeCount, Vector2D position)
 	this->dir.y = 0;
 }
 
-Player::~Player()
-{}
+//Player::Player()
+//{}
 
 void Player::UpdatePosition(float deltaTime)
 {
